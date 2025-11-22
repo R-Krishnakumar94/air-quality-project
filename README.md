@@ -67,11 +67,11 @@ sensors in EE, LV, and LT.
 
 # 🧹 Data Cleaning & Processing
 
--   Converted timestamps\
--   Normalized columns\
--   Removed duplicates\
--   Removed invalid PM2.5 values\
--   Created daily & monthly aggregates\
+-   Converted timestamps
+-   Normalized columns
+-   Removed duplicates
+-   Removed invalid PM2.5 values
+-   Created daily & monthly aggregates
 -   Removed outliers (IQR method)
 
 ------------------------------------------------------------------------
@@ -122,25 +122,25 @@ API_KEY = "your-openaq-api-key"
 
 # 🚀 Key Findings
 
--   Winter pollution peaks are consistent\
--   Lithuania shows the highest PM2.5 values overall\
--   Most days fall within WHO guidelines\
--   Strong seasonal trends\
+-   Winter pollution peaks are consistent
+-   Lithuania shows the highest PM2.5 values overall
+-   Most days fall within WHO guidelines
+-   Strong seasonal trends
 -   Heatmap reveals local pollution hotspots
 
 ------------------------------------------------------------------------
 
 # ⚠️ Limitations
 
--   Sparse sensor coverage (especially in Latvia)\
--   Not enough sensors for street-level detail\
+-   Sparse sensor coverage (especially in Latvia)
+-   Not enough sensors for street-level detail
 -   Forecasts are seasonal predictions, not exact future values
 
 ------------------------------------------------------------------------
 
 # 🙌 Author
 
-**R. Krishnakumar**\
+**R. Krishnakumar**
 GitHub: https://github.com/r-krishnakumar94
 
 ------------------------------------------------------------------------
