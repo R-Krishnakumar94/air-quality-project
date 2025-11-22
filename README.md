@@ -103,7 +103,7 @@ platform.
 
 Add your OpenAQ API key inside the notebooks:
 
-    API_KEY = "your-openaq-api-key"
+    API_KEY = "b654dc40b92bdd512956b2478836f207278e54d27dca9cdf1f20ab728bd7bd16"
 
 ------------------------------------------------------------------------
 
