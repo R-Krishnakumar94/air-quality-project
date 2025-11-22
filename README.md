@@ -1,30 +1,39 @@
 # 📊 Air Quality in the Baltic States (PM2.5 Analysis, 2018--2024)
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
+![OpenAQ API](https://img.shields.io/badge/OpenAQ-API%20v3-orange.svg)
+
 ### A Data Analysis & Visualization Project using Python, OpenAQ API, and Geospatial Heatmaps
 
 This project investigates **fine particulate matter (PM2.5)** levels
-across the **Baltic countries** --- Estonia, Latvia, and Lithuania ---
-using **real-world air quality measurements** from the OpenAQ API
-(2018--2024).
+across **Estonia, Latvia, and Lithuania**, using real-world air quality
+measurements from the OpenAQ API (2018--2024).
 
-The analysis includes:
+------------------------------------------------------------------------
 
--   Automated data retrieval (OpenAQ API v3)\
--   Data cleaning, merging & outlier handling\
--   Trend analysis and country comparison\
--   WHO guideline exceedance analysis\
--   Seasonal analysis\
--   SARIMA forecasting\
--   **LIVE interactive PM2.5 heatmap** for the Baltic region\
--   Project structured for real-world, reproducible data science
-    workflows
+# 🌫️ Why PM2.5?
+
+PM2.5 refers to airborne particles with a diameter of **2.5 micrometers
+or smaller**.
+
+We track PM2.5 because:
+
+-   It is **the most harmful** common air pollutant (deep lung
+    penetration).\
+-   It is linked to **respiratory and cardiovascular disease**.\
+-   It shows **strong seasonal patterns** (winter heating, stagnant
+    air).\
+-   It is the **most consistently monitored pollutant** in the Baltics
+    via OpenAQ.
 
 ------------------------------------------------------------------------
 
 # 🌍 LIVE 24-Hour Baltic PM2.5 Heatmap
 
-👉 **Open the interactive air pollution map:**\
-\### 🔗
+👉 **Interactive heatmap:**\
+🔗
 https://r-krishnakumar94.github.io/air-quality-project/baltics_pm25_heatmap_latest.html
 
 ------------------------------------------------------------------------
@@ -51,8 +60,8 @@ https://r-krishnakumar94.github.io/air-quality-project/baltics_pm25_heatmap_late
 
 # 📥 Data Source
 
-Data is collected from the **OpenAQ v3 API**, a global open air-quality
-platform.
+Data is collected using the **OpenAQ v3 API**, pulling PM2.5 values from
+sensors in EE, LV, and LT.
 
 ------------------------------------------------------------------------
 
@@ -62,8 +71,8 @@ platform.
 -   Normalized columns\
 -   Removed duplicates\
 -   Removed invalid PM2.5 values\
--   Created aggregates\
--   Removed outliers
+-   Created daily & monthly aggregates\
+-   Removed outliers (IQR method)
 
 ------------------------------------------------------------------------
 
@@ -95,33 +104,37 @@ platform.
 
 ------------------------------------------------------------------------
 
-# 🛠 Running Locally
+# 🛠 How to Run Locally
 
-    git clone https://github.com/r-krishnakumar94/air-quality-project.git
-    pip install -r requirements.txt
-    jupyter notebook
+``` bash
+git clone https://github.com/r-krishnakumar94/air-quality-project.git
+pip install -r requirements.txt
+jupyter notebook
+```
 
-Add your OpenAQ API key inside the notebooks:
+Add your API key:
 
-    API_KEY = "b654dc40b92bdd512956b2478836f207278e54d27dca9cdf1f20ab728bd7bd16"
+``` python
+API_KEY = "your-openaq-api-key"
+```
 
 ------------------------------------------------------------------------
 
 # 🚀 Key Findings
 
--   Winter pollution is higher\
--   Lithuania highest PM2.5\
--   Many days meet WHO standard\
--   Seasonal pattern consistent\
--   Heatmap shows local hotspots
+-   Winter pollution peaks are consistent\
+-   Lithuania shows the highest PM2.5 values overall\
+-   Most days fall within WHO guidelines\
+-   Strong seasonal trends\
+-   Heatmap reveals local pollution hotspots
 
 ------------------------------------------------------------------------
 
 # ⚠️ Limitations
 
--   Sparse sensor coverage\
--   No street-level detail\
--   Forecasts illustrative only
+-   Sparse sensor coverage (especially in Latvia)\
+-   Not enough sensors for street-level detail\
+-   Forecasts are seasonal predictions, not exact future values
 
 ------------------------------------------------------------------------
 
@@ -129,3 +142,9 @@ Add your OpenAQ API key inside the notebooks:
 
 **R. Krishnakumar**\
 GitHub: https://github.com/r-krishnakumar94
+
+------------------------------------------------------------------------
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
