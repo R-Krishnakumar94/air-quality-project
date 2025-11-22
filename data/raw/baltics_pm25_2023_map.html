@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_11fd318e9db76dea13a6ebd3272167aa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_11fd318e9db76dea13a6ebd3272167aa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_11fd318e9db76dea13a6ebd3272167aa = L.map(
+                "map_11fd318e9db76dea13a6ebd3272167aa",
+                {
+                    center: [56.8, 24.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_114db6933c69dd1f3e8b5ae8d87bd4aa = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_114db6933c69dd1f3e8b5ae8d87bd4aa.addTo(map_11fd318e9db76dea13a6ebd3272167aa);
+        
+    
+            var circle_marker_da45ef81795edc14e5db31006a5e7188 = L.circleMarker(
+                [55.46333313022679, 26.004169460097053],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_11fd318e9db76dea13a6ebd3272167aa);
+        
+    
+        var popup_5f9003af936f1e6a2d74418e2ab3f684 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_502f0144040fadd72a6dea45632148ef = $(`<div id="html_502f0144040fadd72a6dea45632148ef" style="width: 100.0%; height: 100.0%;">"Aukstaitija" (LT) – 4.5 µg/m³</div>`)[0];
+                popup_5f9003af936f1e6a2d74418e2ab3f684.setContent(html_502f0144040fadd72a6dea45632148ef);
+            
+        
+
+        circle_marker_da45ef81795edc14e5db31006a5e7188.bindPopup(popup_5f9003af936f1e6a2d74418e2ab3f684)
+        ;
+
+        
+    
+    
+            var circle_marker_a54a68ebb37c11d0d182c36d1696c925 = L.circleMarker(
+                [54.88361359025449, 23.83583450024486],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_11fd318e9db76dea13a6ebd3272167aa);
+        
+    
+        var popup_231a3403a1babcf4d59d8dc565203b00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_793e978c06f43055f294123a65c2121c = $(`<div id="html_793e978c06f43055f294123a65c2121c" style="width: 100.0%; height: 100.0%;">"Kaunas - Noreikiskes" (LT) – 8.8 µg/m³</div>`)[0];
+                popup_231a3403a1babcf4d59d8dc565203b00.setContent(html_793e978c06f43055f294123a65c2121c);
+            
+        
+
+        circle_marker_a54a68ebb37c11d0d182c36d1696c925.bindPopup(popup_231a3403a1babcf4d59d8dc565203b00)
+        ;
+
+        
+    
+    
+            var circle_marker_c2cd485add5ee6385167a647232154b0 = L.circleMarker(
+                [54.89512800014952, 23.98622200005016],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_11fd318e9db76dea13a6ebd3272167aa);
+        
+    
+        var popup_f1035c9528fc1144717890fa7caf4a48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_993893b119df4bf5375671ad07d443aa = $(`<div id="html_993893b119df4bf5375671ad07d443aa" style="width: 100.0%; height: 100.0%;">"Kaunas - Petrasiunai" (LT) – 10.1 µg/m³</div>`)[0];
+                popup_f1035c9528fc1144717890fa7caf4a48.setContent(html_993893b119df4bf5375671ad07d443aa);
+            
+        
+
+        circle_marker_c2cd485add5ee6385167a647232154b0.bindPopup(popup_f1035c9528fc1144717890fa7caf4a48)
+        ;
+
+        
+    
+    
+            var circle_marker_3a0fd2bc1ef2a48fb228c10a021a8169 = L.circleMarker(
+                [55.69000000020217, 21.17946000021105],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_11fd318e9db76dea13a6ebd3272167aa);
+        
+    
+        var popup_f3a0dd0b0fb0625d70d550b3ffb8939b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_527911d8aaa7be1d7a0093d83876c82f = $(`<div id="html_527911d8aaa7be1d7a0093d83876c82f" style="width: 100.0%; height: 100.0%;">"Klaipeda - Silutes" (LT) – 7.3 µg/m³</div>`)[0];
+                popup_f3a0dd0b0fb0625d70d550b3ffb8939b.setContent(html_527911d8aaa7be1d7a0093d83876c82f);
+            
+        
+
+        circle_marker_3a0fd2bc1ef2a48fb228c10a021a8169.bindPopup(popup_f3a0dd0b0fb0625d70d550b3ffb8939b)
+        ;
+
+        
+    
+    
+            var circle_marker_5ddf07021054aacf9b70b69292e782e8 = L.circleMarker(
+                [56.319440000023526, 22.870839999870345],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_11fd318e9db76dea13a6ebd3272167aa);
+        
+    
+        var popup_28fdad82f0b9c1aa050767809e761732 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66d32cf1a1165e0542ed843757d2b490 = $(`<div id="html_66d32cf1a1165e0542ed843757d2b490" style="width: 100.0%; height: 100.0%;">"N.Akmene" (LT) – 8.4 µg/m³</div>`)[0];
+                popup_28fdad82f0b9c1aa050767809e761732.setContent(html_66d32cf1a1165e0542ed843757d2b490);
+            
+        
+
+        circle_marker_5ddf07021054aacf9b70b69292e782e8.bindPopup(popup_28fdad82f0b9c1aa050767809e761732)
+        ;
+
+        
+    
+    
+            var circle_marker_20dcc2c73995c2a85660fb67edebebef = L.circleMarker(
+                [54.715278629962725, 25.28944397013095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_11fd318e9db76dea13a6ebd3272167aa);
+        
+    
+        var popup_14619d94dd5cd1872329827f6c7e2b30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57469af809392dda9f52e889ab1bf59d = $(`<div id="html_57469af809392dda9f52e889ab1bf59d" style="width: 100.0%; height: 100.0%;">"Vilnius - Zirmunai" (LT) – 8.7 µg/m³</div>`)[0];
+                popup_14619d94dd5cd1872329827f6c7e2b30.setContent(html_57469af809392dda9f52e889ab1bf59d);
+            
+        
+
+        circle_marker_20dcc2c73995c2a85660fb67edebebef.bindPopup(popup_14619d94dd5cd1872329827f6c7e2b30)
+        ;
+
+        
+    
+    
+            var circle_marker_c8afc9c59a3a3d25b759e57fd55392fc = L.circleMarker(
+                [56.95484699998251, 24.10475599985532],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_11fd318e9db76dea13a6ebd3272167aa);
+        
+    
+        var popup_84ffe68dad5a5843657c8d7a61e92d94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1636d78d185ff3a6b25255f9dae6000c = $(`<div id="html_1636d78d185ff3a6b25255f9dae6000c" style="width: 100.0%; height: 100.0%;">Riga Kronvalda boulevard (LV) – 8.3 µg/m³</div>`)[0];
+                popup_84ffe68dad5a5843657c8d7a61e92d94.setContent(html_1636d78d185ff3a6b25255f9dae6000c);
+            
+        
+
+        circle_marker_c8afc9c59a3a3d25b759e57fd55392fc.bindPopup(popup_84ffe68dad5a5843657c8d7a61e92d94)
+        ;
+
+        
+    
+    
+            var circle_marker_01f19463357def7ad7697c8d008d7e37 = L.circleMarker(
+                [56.162350999992654, 21.173330999843387],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_11fd318e9db76dea13a6ebd3272167aa);
+        
+    
+        var popup_423377ef7840352e2760b3771a72e4b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f3415bc1a8de4c36679cf8bd5005ea2 = $(`<div id="html_9f3415bc1a8de4c36679cf8bd5005ea2" style="width: 100.0%; height: 100.0%;">Rucava (LV) – 7.3 µg/m³</div>`)[0];
+                popup_423377ef7840352e2760b3771a72e4b8.setContent(html_9f3415bc1a8de4c36679cf8bd5005ea2);
+            
+        
+
+        circle_marker_01f19463357def7ad7697c8d008d7e37.bindPopup(popup_423377ef7840352e2760b3771a72e4b8)
+        ;
+
+        
+    
+    
+            var circle_marker_a49a24b6a7f50b7634f043f554af5f44 = L.circleMarker(
+                [57.40399699979552, 21.59031699995187],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_11fd318e9db76dea13a6ebd3272167aa);
+        
+    
+        var popup_e752c3d5b13c7c5b0dfab8596ac0926f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab589ca11563d32c1a88559f88ad6c7a = $(`<div id="html_ab589ca11563d32c1a88559f88ad6c7a" style="width: 100.0%; height: 100.0%;">Ventspils parventa (LV) – 7.8 µg/m³</div>`)[0];
+                popup_e752c3d5b13c7c5b0dfab8596ac0926f.setContent(html_ab589ca11563d32c1a88559f88ad6c7a);
+            
+        
+
+        circle_marker_a49a24b6a7f50b7634f043f554af5f44.bindPopup(popup_e752c3d5b13c7c5b0dfab8596ac0926f)
+        ;
+
+        
+    
+</script>
+</html>
