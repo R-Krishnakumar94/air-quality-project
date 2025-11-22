@@ -143,8 +143,3 @@ API_KEY = "your-openaq-api-key"
 **R. Krishnakumar**
 GitHub: https://github.com/r-krishnakumar94
 
-------------------------------------------------------------------------
-
-# 📄 License
-
-This project is licensed under the **MIT License**.
