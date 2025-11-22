@@ -1,4 +1,4 @@
-# 📊 Air Quality in the Baltic States (PM2.5 Analysis, 2018--2024)
+# 📊 Air Quality in the Baltic States (PM2.5 Analysis, 2018--2025)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -9,7 +9,7 @@
 
 This project investigates **fine particulate matter (PM2.5)** levels
 across **Estonia, Latvia, and Lithuania**, using real-world air quality
-measurements from the OpenAQ API (2018--2024).
+measurements from the OpenAQ API (2018--2025).
 
 ------------------------------------------------------------------------
 
@@ -21,10 +21,10 @@ or smaller**.
 We track PM2.5 because:
 
 -   It is **the most harmful** common air pollutant (deep lung
-    penetration).\
--   It is linked to **respiratory and cardiovascular disease**.\
+    penetration).
+-   It is linked to **respiratory and cardiovascular disease**.
 -   It shows **strong seasonal patterns** (winter heating, stagnant
-    air).\
+    air).
 -   It is the **most consistently monitored pollutant** in the Baltics
     via OpenAQ.
 
@@ -32,7 +32,7 @@ We track PM2.5 because:
 
 # 🌍 LIVE 24-Hour Baltic PM2.5 Heatmap
 
-👉 **Interactive heatmap:**\
+👉 **Interactive heatmap:**
 🔗
 https://r-krishnakumar94.github.io/air-quality-project/baltics_pm25_heatmap_latest.html
 
